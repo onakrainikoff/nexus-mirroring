@@ -1,0 +1,8 @@
+<mirrors>
+    <mirror>
+        <id>nexus-mirror-central</id>
+        <name>nexus-mirror-central</name>
+        <mirrorOf>*</mirrorOf>
+        <url>http://localhost:8081/repository/maven-central/</url>
+    </mirror>
+</mirrors>

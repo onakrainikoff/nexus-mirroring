@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        maven {
+            url "$nexusUrl/repository/gradle-plugins/"
+            allowInsecureProtocol true
+        }
+    }
+}
+rootProject.name = 'gradle-project'
+
